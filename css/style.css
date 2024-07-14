@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(../img/spiderman4\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.logo{
+    width: 90px;
+    margin-top: 15px;
+}
+.header{
+    height: 10%;
+}
+.header-btn{
+    background-color: aqua;
+    padding: 7px 20px;
+    border-radius: 30px;
+    float: right;
+    margin-top: 30px;
+}
+.movie-details{
+    margin: 3% 0;
+}
+
+.casting img{
+    height: 60px;
+    width: 50px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.left-box a{
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 7px 10px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.download-btn{
+    background-color: transparent !important;
+    border: 1px solid white;
+    
+}
+
+.movie-img{
+    height: 340px;
+    display: inline-block;
+    margin-left: 700px;
+    margin-block-start: -350px;
+    border-radius: 50px;
+}
+
+.series img{
+    width: 100%;
+    height: 250px;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 15px;
+}
+
+.series img:hover{
+    transform: translateY(-12px);
+}
+
+.bold{
+    background-color: aqua;
+    width: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 10px solid blue;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 7px 20px;
+}
+
